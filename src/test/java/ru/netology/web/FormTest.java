@@ -58,5 +58,4 @@ public class FormTest {
         $(cssSelector(".notification_status_error .button")).click();
         $(withText("Успешно!")).waitUntil(Condition.visible, 15000);
     }
-
 }
